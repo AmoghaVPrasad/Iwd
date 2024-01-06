@@ -12,8 +12,6 @@ body {
     flex-direction: column;
 }
 
-/* ... (Your existing CSS) ... */
-
 .header {
     background-color: #4d3319;
     color: #fff;
@@ -91,7 +89,7 @@ p {
 }
 
 h2, h3 {
-    color: #3498db;
+    color: #a05314;
 }
 
 img {
@@ -100,7 +98,7 @@ img {
 }
 
 a {
-    color: #3498db;
+    color: #a8471a;
     text-decoration: none;
     font-weight: bold;
 }
@@ -119,9 +117,10 @@ footer {
     width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Alkatra', sans-serif;
-    color: #3498db; /* Adjust the color if needed */
+    font-family: 'Pacifico', cursive;
+    color: #5c2c04; /* Adjust the color if needed */
 }
+
 
 body {
     font-family: 'Almendra', sans-serif;
@@ -136,7 +135,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    background-image: url('https://wallpapercave.com/wp/wp6879850.jpg'); /* Replace 'background.jpg' with the actual file path or URL of your background image */
+    background-image: url('https://i.pinimg.com/564x/c6/50/31/c65031f8d3914ca2d40de53b3dfae31c.jpg'); /* Replace 'background.jpg' with the actual file path or URL of your background image */
     background-size: cover; /* Ensures the background image covers the entire container */
     background-position: center; /* Center the background image */
     padding: 20px; /* Add padding to the container to prevent the content from sticking to the edges */
@@ -150,7 +149,7 @@ body {
 .extracurricular-content,
 .contact-content {
     padding: 20px;
-    background-image: url('https://i.pinimg.com/564x/60/80/07/608007fd7cab42e75879998749e6e2fa.jpg'); /* Replace 'path/to/your/custom-background.jpg' with the actual file path or URL of your background image */
+    background-image: url('https://i.pinimg.com/564x/c6/50/31/c65031f8d3914ca2d40de53b3dfae31c.jpg'); /* Replace 'path/to/your/custom-background.jpg' with the actual file path or URL of your background image */
     background-size: cover;
     border-radius: 10px;
     margin: 10px;
