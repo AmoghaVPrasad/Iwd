@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshith Anoop - Portfolio</title>
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400&display=swap">
+    
+</head>
+<body>
+
+    <!-- Your existing content -->
+
+    <script src="resume.js"></script>
+</body>
+</html>
+
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <header class="header">
+            <div class="profile-picture">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.8crZHoGLWs6cs5luJ4WzwAAAAA&pid=Api&P=0&h=180" alt="Profile Picture">
+
+            </div>
+            <div class="header-content">
+                <div class="name-container">
+                    <h1>Amogha VP</h1>
+                </div>
+                <div class="role-container">
+                    <p>Web Developer and Graphic designer</p>
+                </div>
+            </div>
+            <section class="panel about">
+                <div class="content about-content">
+                    <h2>Contact me</h2>
+                    <p>Email: amoghavp@gmail.com</p>
+                    <p>Phone: 9535051695</p>
+                    <p>LinkedIn: <a href="https://in.linkedin.com/in/amogha_2704" target="_blank">amogha_2704</a></p>
+                    <p>GitHub: <a href="https://github.com/programmingwithamogha" target="_blank">github.com/programmingwithamogha</a></p>
+                </div>
+            </section>
+            
+
+        <section class="panel projects" id="projects">
+            <div class="content projects-content">
+                <h2><u>Skillset</u></h2>
+                <article class="project">
+                    <p>
+                        Relevant Courses:
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>front end framework(bootstrap)</li>
+                          
+                            
+                        </ul>
+                    </p>
+                    
+                </article>
+            </div>
+        </section>
+
+        <section class="panel education">
+            <div class="content education-content">
+                <h2><u>About Me</h2></u></h2>
+                <p>
+                    Amogha V.Prasad, an 18-year-old graphic designer and web developer, seamlessly merges creativity with code, producing visually captivating designs and smooth digital experiences. Dive into my portfolio to witness the convergence of aesthetic finesse and technical proficiency.
+                    During my leisure, I delve into new technologies and frameworks, keeping pace with the latest trends in web development. I am a firm believer in continuous learning, dedicating myself to enhancing my skills each day.
+                </p>
+               
+            </div>
+        </section>
+
+        <section class="panel extracurricular">
+            <div class="content extracurricular-content">
+                <h2><u>Education</u></h2>
+                <p>
+                    I completed the 10 and 10+2 CBSE board examinations,to check the consolidated marks sheet check below:-
+                </p>
+                <select id="marksDropdown" onchange="openMarksheet()">
+                    <option value="" disabled selected>Select Grade</option>
+                    <option value="10th">10th Grade</option>
+                    <option value="12th">12th Grade</option>
+                </select>
+        
+                <script>
+                    function openMarksheet() {
+                        var dropdown = document.getElementById("marksDropdown");
+                        var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+        
+                        if (selectedValue === "10th") {
+                            window.open("https://static.kopykitab.com/blog/wp-content/uploads/2020/04/CBSE-Class-10-Marksheet-Sample-1.jpg", "_blank");
+                        } else if (selectedValue === "12th") {
+                            window.open("https://cdn.slidesharecdn.com/ss_thumbnails/eca44c41-7836-4c28-b41f-b0f1c7e263dc-150525020403-lva1-app6891-thumbnail-4.jpg?cb=1432519463", "_blank");
+                        }
+                    }
+                </script>
+            </div>
+        </section>
+
+        <section class="panel contact">
+            <div class="content contact-content">
+                <h2><u>Prior Experience</u></h2>
+                
+                <ul>
+                    <li>Grahpic design and Web Development Club</li>
+                    <li>Programming Competitions</li>
+                   <li>Web Creators Guild</li>
+                </ul>
+                
+            </div>
+        </section>
+
+       
+    </div>
+
+    
+
+    <script src="resume.js"></script>
+</body>
+</html>
